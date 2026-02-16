@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  portfolio-bot:
+    build: ./app
+    container_name: portfolio-bot
+    env_file:
+      - .env
+    environment:
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - SENTRY_DSN=${SENTRY_DSN}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

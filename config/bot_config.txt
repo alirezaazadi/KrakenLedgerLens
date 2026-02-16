@@ -1,0 +1,27 @@
+=== BotFather Configuration ===
+
+Command: /setdescription
+Description:
+Analyze your cryptocurrency portfolio from Kraken ledger exports. 
+Features:
+- 📊 Portfolio Summary & P/L
+- 📉 DCA Scenario Analysis
+- 🛡️ Verification for Trezor Suite exports
+- 📈 Performance Charts
+- 📈 Performance Charts
+
+Command: /setabouttext
+About Text:
+Developed by Alireza for fun :)
+v1.0 - Python & Docker
+
+Command: /setcommands
+Commands:
+start - Start a new portfolio analysis
+help - View glossary and guide
+about - Developer information
+
+Command: /setuserpic
+Recommendation:
+Use a robot icon holding a Bitcoin symbol or a graph.
+(You can find many specific "crypto bot" icons online or generate one)

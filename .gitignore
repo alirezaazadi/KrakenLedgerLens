@@ -1,0 +1,25 @@
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Docker
+.docker/
+
+# Mac OS
+.DS_Store
+
+# Project Data (User files & Charts)
+data/*
+!data/.gitkeep
+
+# IDEs
+.vscode/
+.idea/

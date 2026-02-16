@@ -1,0 +1,6 @@
+python-telegram-bot
+matplotlib
+python-telegram-bot
+matplotlib
+pandas
+sentry-sdk
